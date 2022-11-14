@@ -1,7 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Yuhan's blog</title><link>http://www.example.com/posts/</link><description>Recent content in Posts on Yuhan's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 14 Nov 2022 23:59:15 +0900</lastBuildDate><atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2022-11-14</title><link>http://www.example.com/posts/2022_11_14/</link><pubDate>Mon, 14 Nov 2022 23:59:15 +0900</pubDate><guid>http://www.example.com/posts/2022_11_14/</guid><description>今日の出来事 Link to heading gitlabのデバッグ作業 Link to heading 正直言ってGitHub、GitLab系はあまり慣れていないから誰かが困っていても助けられるわけじゃない。だけど、困っていそうだから助けることにした。 その人によると、pushはできているのだが、Error表示が消えないとのこと。 よくあるミスとして、GitLabにSSHkeyを設定していないことが挙げられるため、その辺りを確認してみたが、問題はなかった。 次は、ymlファイルのインデントが揃っていないか確認してみた。こちらもインデントはしっかり設定されており、問題はなかった。 エラーコードを確認してみると、 Error job failed exit status 1 と表示されていたので、調べてみた。しかし、それといった解決策は出てこなかった。 じゃあその上のエラー文読めば良くね??? それが正解だった。エラー文は、~~ import collision ~~ と表示されていて、対象のファイルを見てみた。すると、エラーを吐かなかった人と見比べてみると、パスの1文字だけが大文字になっていたこと が原因だった。そんなんわからんって でも、直せてよかったと感じた今日この頃
-hugoを使用したブログの作成?? Link to heading まぁ、そんなことがありまして、何とか人を助けた後、サイトを作成する約束をしていたのでサイトを作ってみることにした。 hugoなんて使ったこともないから、うまくできるのか不安で仕方なかった。 初めに、hugoテンプレートから自分が気に入ったデザインを選んだ。自分はシンプルなデザインの方が好みであったため、今のテンプレートを使用することを決めた。 次に、テンプレートファイルを使って実際に、hugoを動かして、Webサイトを表示してみた。色々やることがあり、ディレクトリも何度も移動したため、ミスが起きないか心配だった。まぁ、それは杞憂に終わったが そこからが問題だった。 案の定、教えてもらいながら作業を進めたが、エラーは吐くわ吐くわ。 何回直しても、毎回Deployエラーを吐くため、何でだよ~~~と思いながら作業を進めた。 サイトが作れるようになる頃には、夜も遅くなっていた。 1日教えてもらって、少しはできるようになったんじゃないかなぁと思う。 これから三日坊主にならずに、毎日とは言わないがブログを書いていければなぁと思う。
-たこ焼き食べた Link to heading そんなこんなで、色々ありまして、ショッピングモールに行こうということで、友達2人と近くのイオンモールに行きましたと。 自分は金欠でお金がなかったので、食べているところを見ているだけにしようと思っていた。だけど友達は優しかった。 友達は、自分達が購入したたこ焼きを数個分けてくれた。 たこ焼きは熱かったし、簡単に崩れたから食べにくかった。だけど、めっちゃ美味しかった。 友達に感謝。
-その後の出来事 Link to heading たこ焼きも食べ終え、友達が服を買いたいとのことで、服屋に立ち寄った。 夜も遅いため、閉店時間が近く、あまり選ぶ時間はなさそうだった。 それでも、色々な服を見て回って、友達は服を1着買っていた。 今日は1日楽しい日だったかなぁと思いました。</description></item><item><title>Test Site</title><link>http://www.example.com/posts/hello/</link><pubDate>Mon, 14 Nov 2022 19:50:14 +0900</pubDate><guid>http://www.example.com/posts/hello/</guid><description> Hello World Link to heading This is test site Link to heading</description></item><item><title>Mermaid JS support</title><link>http://www.example.com/posts/mermaid-support/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/mermaid-support/</guid><description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Yuhan's blog</title><link>http://www.example.com/posts/</link><description>Recent content in Posts on Yuhan's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 14 Nov 2022 23:59:15 +0900</lastBuildDate><atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2022-11-14</title><link>http://www.example.com/posts/2022_11_14/</link><pubDate>Mon, 14 Nov 2022 23:59:15 +0900</pubDate><guid>http://www.example.com/posts/2022_11_14/</guid><description>今日の出来事 Link to heading gitlabのデバッグ作業 Link to heading 正直言ってGitHub、GitLab系はあまり慣れていないから誰かが困っていても助けられるわけじゃない。だけど、困っていそうだから助けることにした。
+その人によると、pushはできているのだが、Error表示が消えないとのこと。
+よくあるミスとして、GitLabにSSHkeyを設定していないことが挙げられるため、その辺りを確認してみたが、問題はなかった。
+次は、ymlファイルのインデントが揃っていないか確認してみた。こちらもインデントはしっかり設定されており、問題はなかった。
+エラーコードを確認してみると、 Error job failed exit status 1 と表示されていたので、調べてみた。しかし、それといった解決策は出てこなかった。
+じゃあその上のエラー文読めば良くね???
+それが正解だった。エラー文は、~~ import collision ~~ と表示されていて、対象のファイルを見てみた。すると、エラーを吐かなかった人と見比べてみると、パスの1文字だけが大文字になっていたこと が原因だった。そんなんわからんって
+でも、直せてよかったと感じた今日この頃
+hugoを使用したブログの作成?? Link to heading まぁ、そんなことがありまして、何とか人を助けた後、サイトを作成する約束をしていたのでサイトを作ってみることにした。
+hugoなんて使ったこともないから、うまくできるのか不安で仕方なかった。
+初めに、hugoテンプレートから自分が気に入ったデザインを選んだ。自分はシンプルなデザインの方が好みであったため、今のテンプレートを使用することを決めた。
+次に、テンプレートファイルを使って実際に、hugoを動かして、Webサイトを表示してみた。色々やることがあり、ディレクトリも何度も移動したため、ミスが起きないか心配だった。まぁ、それは杞憂に終わったが
+そこからが問題だった。
+案の定、教えてもらいながら作業を進めたが、エラーは吐くわ吐くわ。
+何回直しても、毎回Deployエラーを吐くため、何でだよ~~~と思いながら作業を進めた。
+サイトが作れるようになる頃には、夜も遅くなっていた。
+1日教えてもらって、少しはできるようになったんじゃないかなぁと思う。
+これから三日坊主にならずに、毎日とは言わないがブログを書いていければなぁと思う。
+たこ焼き食べた Link to heading そんなこんなで、色々ありまして、ショッピングモールに行こうということで、友達2人と近くのイオンモールに行きましたと。
+自分は金欠でお金がなかったので、食べているところを見ているだけにしようと思っていた。だけど友達は優しかった。
+友達は、自分達が購入したたこ焼きを数個分けてくれた。
+たこ焼きは熱かったし、簡単に崩れたから食べにくかった。だけど、めっちゃ美味しかった。
+友達に感謝。
+その後の出来事 Link to heading たこ焼きも食べ終え、友達が服を買いたいとのことで、服屋に立ち寄った。
+夜も遅いため、閉店時間が近く、あまり選ぶ時間はなさそうだった。
+それでも、色々な服を見て回って、友達は服を1着買っていた。
+今日は1日楽しい日だったかなぁと思いました。</description></item><item><title>Test Site</title><link>http://www.example.com/posts/hello/</link><pubDate>Mon, 14 Nov 2022 19:50:14 +0900</pubDate><guid>http://www.example.com/posts/hello/</guid><description> Hello World Link to heading This is test site Link to heading</description></item><item><title>Mermaid JS support</title><link>http://www.example.com/posts/mermaid-support/</link><pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/mermaid-support/</guid><description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.
 flowchart LR A --> B B --> C C --> D D --> B sequenceDiagram participant Alice participant Bob Alice->>Bob: Hi Bob Bob->>Alice: Hi Alice Find more example on Mermaid-JS website.</description></item><item><title>HTML and CSS only tabs</title><link>http://www.example.com/posts/html-and-css-only-tabs/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>http://www.example.com/posts/html-and-css-only-tabs/</guid><description>Basic shortcodes Link to heading The following content:
 {{&amp;lt; tabgroup &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Will generate:
 Hello Hello World! Goodbye Goodbye Everybody! Right alighment Link to heading You can also align the tabs to the right:
