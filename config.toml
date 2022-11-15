@@ -12,9 +12,9 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "John Doe"
+author = "Yuhan"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "Yuhan's personal website"
 keywords = "blog,developer,personal"
 info = ["Full Stack DevOps", "Magician"]
 avatarURL = "images/avatar.jpg"
@@ -119,7 +119,7 @@ url = "https://gitlab.com/johndoe/"
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/johndoe/"
+url = "https://twitter.com/yuhan_en"
 
 [[params.social]]
 name = "LinkedIn"
