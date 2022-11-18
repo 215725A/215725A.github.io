@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuhan's blog</title><link>http://www.example.com/</link><description>Recent content on Yuhan's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 14 Nov 2022 23:59:15 +0900</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>2022-11-14</title><link>http://www.example.com/posts/2022_11_14/</link><pubDate>Mon, 14 Nov 2022 23:59:15 +0900</pubDate><guid>http://www.example.com/posts/2022_11_14/</guid><description>今日の出来事 Link to heading gitlabのデバッグ作業 Link to heading 正直言ってGitHub、GitLab系はあまり慣れていないから誰かが困っていても助けられるわけじゃない。だけど、困っていそうだから助けることにした。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuhan's blog</title><link>http://www.example.com/</link><description>Recent content on Yuhan's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 Nov 2022 22:47:29 +0900</lastBuildDate><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>前回から今日までの出来事</title><link>http://www.example.com/posts/2022_11_18/</link><pubDate>Fri, 18 Nov 2022 22:47:29 +0900</pubDate><guid>http://www.example.com/posts/2022_11_18/</guid><description>前回から今回までの印象的だったこと Link to heading 文章が結構書けたこと Link to heading ブログを書き始めて思ったことは、思った以上に文字を書いていることだ。 正直、日本語弱者である自分にとって、文章を書くこと事態はそこまで嫌いではないが、文章を考えることは苦痛以外の何者でもない。レポートだろうが感想文だろうが嫌いなものは嫌いだ。そんな自分が、前回1000文字以上も文字を書いていることに、自分でも驚いた。まぁ、他人からしてみれば「たかが1000文字程度」と思うかもしれないが、文章を考えて書くことが苦手な自分にとっては成長と言えるだろう。
+大学生になると、卒論などで10000字をゆうに超える文字を書かないといけないから、そこは心配である。なんとかなるでしょ、知らんけど
+文章書きたくねぇ~~~~~~~
+でもブログだと自分が思ったことを書き連ねればいいだけなので、形式にこだわらなくていいのがいいな~と思う。 他の人が見るって考えたらしっかり書かないといけないが 正直めんどい
+ボウリングに参加すること Link to heading 話を切り替えるが、明日(2022/11/19)大学生になってできた友達とボウリングに行くことになった。めちゃくちゃ楽しみなんだが、ボウリングはあまりやってこなかったので、下手くそである。その前に、集中講義があるからそこを乗り越えるところから始まるが、講義が終わった後のことを考えながら乗り越えることにしよう。
+しかも、ボウリングに参加するメンバーが結構豪華(主観)なため、その点でも楽しみである。楽しめるといいなぁ&amp;hellip;
+講義でのこと Link to heading 知能情報基礎演習IIIの最後の講義が今日(2022/11/18)あった。
+実験1,2,3は結構簡単ですぐ終わったのだが、ソートと割り算を行うプログラムを組むときに結構苦戦した。ソートは原理がある程度わかっていたから、すぐに実装できたのだが、割り算が意外と難しかった。というか間違いに気づかなかっただけ
+何度も論理立ててプログラムを組んでいるはずなのに、結果がちょっとだけ異なる。2桁 / 1桁だとうまく動作するのに、1桁 / 1桁になると実行結果が違った。 何回も修正場所を確認して、修正しているはずなのに、結果が違う。
+なんで、なんで と言いながらプログラムを見ていた。
+一度、共同実験者にプログラムの不具合について説明している時に気づいてしまった&amp;hellip;
+ACCの値ずれてるやん
+講義の終了時間が来てしまったため、講義内では終わらせることはできなかったが、エミュレータ上で確認しても報告書にまとめても良いとのことだった。だから、プログラムを少しまとめてから報告書にはまとめようと思う。
+IoTハッカソンに参加すること Link to heading 今日(2022/11/18)、IoTハッカソンに参加してみないかとの誘いがあった。技術力に自信は全くないが、参加することにした。
+改めて言うが、技術力には自信がない。大学のメンバーにはできる人間だと思われているが、そんなことはない。ちょっと毛が生えた程度だと考えていただきたい。
+だが、参加することによって、他のチームの技術力や発想力、アイデアに富んだ作品を見ることができるのは貴重な体験であることには変わりない。また、チームで作品を開発するので、チーム活動には何が必要なのかを再確認することができるだろう。何回も言うが、技術力には自信がないが、楽しんで開発していきたい。できるといいなぁ&amp;hellip;</description></item><item><title>2022-11-14</title><link>http://www.example.com/posts/2022_11_14/</link><pubDate>Mon, 14 Nov 2022 23:59:15 +0900</pubDate><guid>http://www.example.com/posts/2022_11_14/</guid><description>今日の出来事 Link to heading gitlabのデバッグ作業 Link to heading 正直言ってGitHub、GitLab系はあまり慣れていないから誰かが困っていても助けられるわけじゃない。だけど、困っていそうだから助けることにした。
 その人によると、pushはできているのだが、Error表示が消えないとのこと。
 よくあるミスとして、GitLabにSSHkeyを設定していないことが挙げられるため、その辺りを確認してみたが、問題はなかった。
 次は、ymlファイルのインデントが揃っていないか確認してみた。こちらもインデントはしっかり設定されており、問題はなかった。
